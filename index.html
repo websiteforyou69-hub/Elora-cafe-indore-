@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1b130f">
+
+  <title>Elora Cafe | Indore</title>
+
+  <meta name="description"
+    content="Discover Elora Cafe in Indore. Explore the ambience, food and drinks in a warm, welcoming setting.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+
+  <div class="topbar">
+    A PLACE TO PAUSE
+    <span>✦</span>
+    A MOMENT TO REMEMBER
+  </div>
+
+  <!-- NAVIGATION -->
+
+  <header class="header">
+
+    <a class="logo" href="#home">
+      elora<span>.</span>
+      <small>CAFE · INDORE</small>
+    </a>
+
+    <button class="menu-toggle"
+      id="menuToggle"
+      aria-label="Toggle navigation"
+      aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="navigation">
+      <a href="#story">Our Story</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit Us</a>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+
+      <div class="hero-image">
+        <img
+          src="Screenshot_20261013-172305.jpg"
+          alt="Elora Cafe interior and warm wooden seating">
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          GOOD FOOD · WARM LIGHTS · BEAUTIFUL MOMENTS
+        </div>
+
+        <h1>
+          A little pause.<br>
+          <em>A lot of magic.</em>
+        </h1>
+
+        <p>
+          Where the coffee feels comforting,
+          conversations flow naturally,
+          and every visit becomes a little memory.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button button-gold" href="#menu">
+            EXPLORE THE MENU ↗
+          </a>
+
+          <a class="button button-outline" href="#gallery">
+            DISCOVER ELORA
+          </a>
+        </div>
+
+      </div>
+
+      <div class="hero-bottom">
+        <span>ELORA CAFE · INDORE</span>
+        <a href="#story">SCROLL TO EXPLORE ↓</a>
+      </div>
+
+    </section>
+
+    <!-- STORY -->
+
+    <section class="story section" id="story">
+
+      <div class="story-image">
+        <img
+          src="Screenshot_20261013-172425.jpg"
+          alt="Warm interior of Elora Cafe with wooden chairs">
+      </div>
+
+      <div class="story-content">
+
+        <span class="eyebrow">THE ELORA EXPERIENCE</span>
+
+        <h2>
+          Not just a cafe.<br>
+          <em>Your kind of place.</em>
+        </h2>
+
+        <p>
+          Some moments deserve more than a quick coffee.
+          A relaxed afternoon, a favourite person,
+          a delicious bite and a space that feels just right.
+        </p>
+
+        <p>
+          Pull up a chair, slow things down
+          and make a little time for yourself.
+        </p>
+
+        <a href="#gallery" class="text-link">
+          TAKE A CLOSER LOOK ↗
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- EXPERIENCE -->
+
+    <section class="experience">
+
+      <article class="experience-card">
+        <span class="card-number">01 / THE FOOD</span>
+        <div class="experience-icon">✳</div>
+        <h3>Good food.<br><em>Good mood.</em></h3>
+        <p>
+          Make your next catch-up a little more delicious.
+        </p>
+        <a href="#menu">EXPLORE THE MENU ↗</a>
+      </article>
+
+      <article class="experience-card">
+        <span class="card-number">02 / THE SPACE</span>
+        <div class="experience-icon">◌</div>
+        <h3>Warm corners.<br><em>Long conversations.</em></h3>
+        <p>
+          Wooden details, warm lighting and time well spent.
+        </p>
+        <a href="#gallery">SEE THE SPACE ↗</a>
+      </article>
+
+      <article class="experience-card">
+        <span class="card-number">03 / YOUR MOMENT</span>
+        <div class="experience-icon">◇</div>
+        <h3>Come as you are.<br><em>Stay a little.</em></h3>
+        <p>
+          Your next coffee break could be your favourite one.
+        </p>
+        <a href="#visit">FIND ELORA ↗</a>
+      </article>
+
+    </section>
+
+    <!-- MENU -->
+
+    <section class="menu-section section" id="menu">
+
+      <div class="section-heading">
+
+        <div>
+          <span class="eyebrow">SOMETHING FOR EVERY MOOD</span>
+          <h2>A taste of <em>Elora.</em></h2>
+        </div>
+
+        <p>
+          A little something to sip,
+          a little something to share.
+          Discover your next favourite.
+        </p>
+
+      </div>
+
+      <div class="menu-tabs">
+        <button class="filter active" data-filter="all">ALL</button>
+        <button class="filter" data-filter="pizza">PIZZA</button>
+        <button class="filter" data-filter="drinks">DRINKS</button>
+        <button class="filter" data-filter="coffee">COFFEE</button>
+        <button class="filter" data-filter="dessert">DESSERTS</button>
+      </div>
+
+      <div class="menu-grid">
+
+        <article class="menu-item" data-category="pizza">
+          <div class="menu-item-number">01</div>
+          <span>FROM THE OVEN</span>
+          <h3>Pizza</h3>
+          <p>
+            Golden crust, delicious toppings
+            and a reason to share.
+          </p>
+          <small>ASK FOR THE CURRENT MENU</small>
+        </article>
+
+        <article class="menu-item" data-category="coffee">
+          <div class="menu-item-number">02</div>
+          <span>YOUR COFFEE MOMENT</span>
+          <h3>Coffee</h3>
+          <p>
+            A comforting coffee break
+            for slow mornings and long chats.
+          </p>
+          <small>ASK FOR THE CURRENT MENU</small>
+        </article>
+
+        <article class="menu-item" data-category="drinks">
+          <div class="menu-item-number">03</div>
+          <span>SOMETHING REFRESHING</span>
+          <h3>Cold Drinks</h3>
+          <p>
+            A refreshing sip to brighten
+            up an ordinary afternoon.
+          </p>
+          <small>ASK FOR THE CURRENT MENU</small>
+        </article>
+
+        <article class="menu-item" data-category="dessert">
+          <div class="menu-item-number">04</div>
+          <span>A SWEET LITTLE FINISH</span>
+          <h3>Desserts</h3>
+          <p>
+            Because every lovely meal
+            deserves a sweet ending.
+          </p>
+          <small>ASK FOR THE CURRENT MENU</small>
+        </article>
+
+      </div>
+
+      <p class="menu-note">
+        Menu descriptions are illustrative.
+        Please confirm actual dishes, availability
+        and prices with Elora Cafe.
+      </p>
+
+    </section>
+
+    <!-- ORIGINAL PHOTO GALLERY -->
+
+    <section class="gallery-section section" id="gallery">
+
+      <div class="section-heading">
+
+        <div>
+          <span class="eyebrow">A LITTLE LOOK INSIDE</span>
+          <h2>Captured at <em>Elora.</em></h2>
+        </div>
+
+        <p>
+          The warm lights, the wooden interiors
+          and the food worth gathering around.
+        </p>
+
+      </div>
+
+      <div class="gallery-grid">
+
+        <figure class="gallery-item gallery-tall">
+          <img
+            src="Screenshot_20261013-172305.jpg"
+            alt="Cafe seating and wooden interior"
+            loading="lazy">
+          <figcaption>01 — THE AMBIENCE</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img
+            src="Screenshot_20261013-172411.jpg"
+            alt="Elora branded cold coffee"
+            loading="lazy">
+          <figcaption>02 — A LITTLE INDULGENCE</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img
+            src="Screenshot_20261013-172327.jpg"
+            alt="Pizza served at the cafe"
+            loading="lazy">
+          <figcaption>03 — MADE TO SHARE</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img
+            src="Screenshot_20261013-172425.jpg"
+            alt="Cafe interior with warm lighting"
+            loading="lazy">
+          <figcaption>04 — WARM CORNERS</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img
+            src="Screenshot_20261013-172459.jpg"
+            alt="Freshly served pizza"
+            loading="lazy">
+          <figcaption>05 — FROM THE TABLE</figcaption>
+        </figure>
+
+        <figure class="gallery-item gallery-wide">
+          <img
+            src="Screenshot_20261013-172343.jpg"
+            alt="Wooden furniture and warm cafe lighting"
+            loading="lazy">
+          <figcaption>06 — STAY A LITTLE LONGER</figcaption>
+        </figure>
+
+      </div>
+
+      <p class="gallery-note">
+        Original photos supplied for this website demo.
+        Please obtain permission before commercial publication.
+      </p>
+
+    </section>
+
+    <!-- VISIT -->
+
+    <section class="visit-section section" id="visit">
+
+      <div class="visit-content">
+
+        <span class="eyebrow">LET'S MAKE IT A PLAN</span>
+
+        <h2>
+          Your next stop.<br>
+          <em>Elora Cafe.</em>
+        </h2>
+
+        <p>
+          Save a little time for good food,
+          relaxed conversations and a change of scene.
+        </p>
+
+        <div class="visit-detail">
+          <span>⌖</span>
+          <div>
+            <small>LOCATION</small>
+            <p>Elora Cafe, Indore, Madhya Pradesh</p>
+          </div>
+        </div>
+
+        <div class="visit-detail">
+          <span>↗</span>
+          <div>
+            <small>FIND YOUR WAY</small>
+            <p>Open the cafe's location in Google Maps.</p>
+          </div>
+        </div>
+
+        <a
+          class="button button-gold"
+          href="https://www.google.com/maps/search/?api=1&query=Elora+Cafe+Indore"
+          target="_blank"
+          rel="noopener noreferrer">
+          OPEN GOOGLE MAPS ↗
+        </a>
+
+      </div>
+
+      <div class="map-frame">
+        <iframe
+          title="Find Elora Cafe in Indore"
+          src="https://maps.google.com/maps?q=Elora%20Cafe%2C%20Indore&t=&z=14&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <div class="map-caption">
+          <span>⌖</span>
+          <div>
+            <strong>ELORA CAFE</strong>
+            <small>INDORE · MADHYA PRADESH</small>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- CLOSING -->
+
+    <section class="closing">
+
+      <span class="eyebrow">MAKE ROOM FOR THE GOOD THINGS</span>
+
+      <h2>
+        Good food.<br>
+        <em>Golden moments.</em>
+      </h2>
+
+      <a href="#gallery" class="button button-gold">
+        EXPERIENCE ELORA ↗
+      </a>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+    <a href="#home" class="logo">
+      elora<span>.</span>
+      <small>CAFE · INDORE</small>
+    </a>
+
+    <p>A little pause in the middle of it all.</p>
+
+    <div class="footer-links">
+      <a href="#story">Our Story</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Location</a>
+    </div>
+
+    <div class="footer-bottom">
+      <span>ELORA CAFE · WEBSITE DEMO</span>
+      <a href="#home">BACK TO TOP ↑</a>
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+  </html>
